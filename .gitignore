@@ -1,0 +1,41 @@
+
+### `.gitignore`
+
+To ignore common files for an Electron app, use this `.gitignore`:
+
+```gitignore
+# Node.js
+node_modules/
+dist/
+out/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Cache and temp files
+*.temp
+*.tmp
+.cache/
+.ionide/
+
+# Electron Packager output
+*.asar
+*.exe
+*.app
+*.deb
+*.dmg
+*.rpm
+
+# Env files
+.env
+.env.local
